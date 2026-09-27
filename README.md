@@ -1,4 +1,4 @@
-# 🛒 Sales Data Analysis with Pandas
+# 🐼 Pandas Data Analysis Projects
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?logo=pandas)
@@ -6,40 +6,45 @@
 
 ---
 
-## 📌 Project Overview
-This project is a **Sales Data Analysis application** built with **Python and Pandas**.  
-It includes two versions:
-- `sales_analysis.py` → one‑shot exploratory analysis script.
-- `sales_menu.py` → interactive **menu‑driven program** for exploring sales data.
-
-The project demonstrates **data cleaning, transformation, pivot tables, groupby, filtering, sorting, and trend analysis**.
+## 📌 Overview
+This repository is a collection of **beginner-friendly Pandas projects** showcasing data cleaning, transformation, and analysis.  
+Each project is self-contained with its own scripts, requirements, and README.
 
 ---
 
-## ✨ Features
-- Calculate **total sales, discounts, GST, net amount**.
-- Identify **top customers, most selling products, and city with highest sales**.
-- Perform **trend analysis**: daily sales, weekend orders, first 10 days sales.
-- Generate **pivot tables**:
-  - City vs Category Sales
-  - Payment Mode vs Product Quantity
-  - Product-wise Total Sales
-  - Monthly Sales
-- Explore **correlation between quantity & price**.
-- Interactive **menu-driven interface** for easy navigation.
+## 📊 Projects
+
+### 🛒 [Sales Data Analysis](sales-analysis)
+- Analyze sales data using Pandas  
+- Menu-driven console interface  
+- Aggregations, pivot tables, and insights  
+- Demonstrates **trend analysis, filtering, sorting, and correlation**
 
 ---
 
-## 📊 Sample Insights
-- 📍 Delhi recorded the highest total sales.  
-- 💻 Laptops contributed the maximum revenue.  
-- 📅 Weekends showed fewer orders compared to weekdays.  
-- 📈 Strong negative correlation between price and quantity.  
+### 🚗 [Trip Data Cleaning Pipeline](trip-data-cleaning-pipeline)
+- Connects to MySQL and loads raw trip data  
+- Cleans messy data (emails, names, duplicates)  
+- Converts age to numeric and categorizes into groups  
+- Performs grouping, aggregation, and pivot analysis  
+- Exports cleaned data to Excel and posts back into SQL  
+
+---
+
+## 🧠 Skills Demonstrated
+- Python (Pandas, NumPy)
+- Data Cleaning & Transformation
+- SQL Integration
+- Exploratory Data Analysis (EDA)
+- Excel Exporting
+- GitHub Project Structuring
 
 ---
 
 ## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/sales-analysis.git
-   cd sales-analysis
+Clone the repo and navigate to any project folder:
+
+```bash
+git clone https://github.com/<your-username>/pandas-projects.git
+cd pandas-projects/sales-analysis
+python sales_menu.py
