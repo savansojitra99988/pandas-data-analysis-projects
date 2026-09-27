@@ -1,7 +1,11 @@
 sno,name,age,gender,email
-1,Savan,23,male,savan@example.com
-2,Meera,35,female,meera@example.com
-3,John,19,male,john@example.com
-4,Shuchi,52,female,shuchi@example.com
-5,Prit,41,male,prit@example.com
-6,Anita,67,female,anita@example.com
+1,Savan,23,male,savan123@Gmail.com
+2,Meera,35,female,  MEERA@Yahoo.com 
+3,John@,19,male,john@Example.com
+4,Shuchi,52,female,shuchi@Gmail.com
+5,Prit,41,male,prit_41@outlook.com
+6,Anita,67,female,Anita@Example.com
+7,Savan,23,male,Savan123@Gmail.com
+8,Raj,29,male,raj@Yahoo.com
+9,Meera,35,female,meera@Yahoo.com
+10,Neha,55,female,neha@Example.com
